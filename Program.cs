@@ -20,7 +20,7 @@ builder.Services.AddCors(options =>
     {
         policy.WithOrigins(
             "http://localhost:4200", // Angular dev
-            "https://farmaciamonteagudo-dhe7dqachzb0f2h4.spaincentral-01.azurewebsites.net") // Angular prod
+            "https://farmaciatotana-brf6h3cjc5ayd9ej.spaincentral-01.azurewebsites.net") // Angular prod
               .AllowAnyMethod()
               .AllowAnyHeader();
     });
